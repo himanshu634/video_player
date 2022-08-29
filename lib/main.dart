@@ -24,17 +24,6 @@ class MyApp extends StatelessWidget {
           title: const Text("Video Player"),
         ),
         body: const VideoPlayerScreen(),
-        //GestureDetector(
-        //   onPanUpdate: (DragUpdateDetails details) {},
-        //   onForcePressPeak: (ForcePressDetails details) {
-
-        //   },
-        //   child: Container(
-        //     child: CircleAvatar(
-        //       backgroundColor: Colors.black,
-        //     ),
-        //   ),
-        // ),
       ),
     );
   }
